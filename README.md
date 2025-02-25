@@ -5,5 +5,8 @@ O jogo possui três níveis de dificuldade: Fácil, Médio e Difícil. No modo F
 
 Além disso, tanto os dados do jogador quanto as informações das partidas são armazenados em tabelas no SQL Server, permitindo a criação de um histórico detalhado do desempenho do jogador.
 
-https://github.com/user-attachments/assets/5f28602e-ec23-42f2-a4a4-df4d5758e31e
+
+
+
+https://github.com/user-attachments/assets/9076411b-c52f-4855-bacc-948240f53682
 
