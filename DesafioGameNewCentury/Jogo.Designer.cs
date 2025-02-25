@@ -70,7 +70,7 @@
             this.labelTentativas.AutoSize = true;
             this.labelTentativas.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTentativas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.labelTentativas.Location = new System.Drawing.Point(535, 103);
+            this.labelTentativas.Location = new System.Drawing.Point(525, 103);
             this.labelTentativas.Name = "labelTentativas";
             this.labelTentativas.Size = new System.Drawing.Size(29, 32);
             this.labelTentativas.TabIndex = 12;

@@ -12,8 +12,6 @@ namespace DesafioGameNewCentury
 {
     public partial class Dificuldade : Form
     {
-        // dificuldade e tentativas
-
         public static string dificuldadeEscolhaJogador = "";
         public Dificuldade()
         {
@@ -33,7 +31,7 @@ namespace DesafioGameNewCentury
             Jogo jogo = new Jogo();
             jogo.Show();
 
-            this.Hide();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

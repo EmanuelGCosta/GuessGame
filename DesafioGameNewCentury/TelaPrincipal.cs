@@ -15,11 +15,16 @@ namespace DesafioGameNewCentury
         public TelaPrincipal()
         {
             InitializeComponent();
+
+            NomeJogador.Text = Form1.nomeFormatado;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Fechar aplicativo?", "Mesangem de informação", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,17 +35,25 @@ namespace DesafioGameNewCentury
             this.Hide();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Historico historico = new Historico(this);
+            historico.Show();
+
+            this.Hide();
+        }
+
+        private void NomeJogador_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
         {
 
         }
